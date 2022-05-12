@@ -16,7 +16,7 @@
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),
-    /* bottom, image */ url(/images/projects/1876558.jpg);
+    /* bottom, image */ url(/images/projects/Background.jpg);
   background-size: cover;
   background-attachment: fixed;  
 }
@@ -95,7 +95,7 @@ h6 {
     position: fixed;
     background-color: black;
   }
-  
+
   .navbar a {
     color: silver;
     margin: 0px 20px;
@@ -110,3 +110,40 @@ h6 {
     height: 100%;
     width: 100%;
   }
+
+  #skill-img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .button1:hover {
+    background-color: purple;
+    color: white;
+  }
+
+  .button2:hover {
+    background-color: greenyellow;
+    color: white;
+  }
+
+  .button2 {
+      background-color: white;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+  }
+
+  .button1 {
+    background-color: white;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
