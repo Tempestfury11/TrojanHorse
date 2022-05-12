@@ -1,0 +1,112 @@
+
+#landing {
+  background: 
+    /* top, transparent red, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* bottom, image */ url(/images/GCar.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#projects {
+    background: 
+    /* top, transparent red, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* bottom, image */ url(/images/projects/1876558.jpg);
+  background-size: cover;
+  background-attachment: fixed;  
+}
+
+#landing h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 4em;
+}
+
+h6 {
+  text-align: center;
+}
+
+.experience-container {
+  border-left: 3px solid black;
+  padding-left: 20px;
+  position: relative;
+}
+
+.experience-container::before {
+  position: absolute;
+  left: -10px;
+  top: 0;
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border: 3px solid black;
+  border-radius: 50%;
+  background-color: rgb(248, 249, 250);
+}
+
+#testimonials {
+    background: linear-gradient(
+      rgba(66, 57, 57, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+  url(/images/testimonials/guitar2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  }
+
+  #test-img {
+    justify-content: center;
+    border-radius: 50%;
+  }
+  
+  #text-par {
+    background-color: black;
+  }
+
+  [data-aos] {
+    pointer-events: none;
+  }
+  .aos-animate {
+    pointer-events: auto;
+  }
+  .aos-init[data-aos][data-aos].aos-animate {
+    transform: unset;
+  }
+
+  .navbar-brand{
+    background-image: url(../images/MJ.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+  }
+  
+  .navbar-toggler{
+    color: white;
+  }
+  .navbar {
+    width: 100%;
+    position: fixed;
+    background-color: black;
+  }
+  
+  .navbar a {
+    color: silver;
+    margin: 0px 20px;
+    font-size: 1.3em;
+  }
+  
+  .navbar a:hover {
+    text-decoration:red
+  }
+
+  #pro-img {
+    height: 100%;
+    width: 100%;
+  }
