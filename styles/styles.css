@@ -10,6 +10,17 @@
   background-attachment: fixed;
 }
 
+#about {
+  background: 
+    /* top, transparent red, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* bottom, image */ url(/images/bg-about.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 #projects {
     background: 
     /* top, transparent red, faked with gradient */ linear-gradient(
@@ -166,5 +177,4 @@ h6 {
   background-color: white;
   color: black;
 }
-
 
