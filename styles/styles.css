@@ -122,7 +122,7 @@ h6 {
   }
 
   .button2:hover {
-    background-color: greenyellow;
+    background-color: turquoise;
     color: white;
   }
 
@@ -187,5 +187,14 @@ h6 {
 .contact-img {
   height: 100%;
   width: 100%;
+}
+
+.bg-1 { 
+  background-color: white;
+  color: black;
+}
+
+#footer-img {
+  border-radius: 50%;
 }
 
