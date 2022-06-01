@@ -36,10 +36,6 @@ h6 {
   #test-img {
     justify-content: center;
   }
-  
-  #text-par {
-    background-color: black;
-  }
 
   [data-aos] {
     pointer-events: none;
@@ -79,9 +75,21 @@ h6 {
     text-decoration:red
   }
 
-  #pro-img {
-    height: 100%;
-    width: 100%;
+  div.polaroid {
+    width: 23rem !important;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    padding-top: 1.5rem;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .prod-img{
+    width: 20rem !important;
+    height: 16rem !important;
   }
 
   #skill-img {
@@ -176,4 +184,12 @@ html,body{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
+}
+
+#abouttext {
+  text-align: left;
+}
+
+#project-img {
+  align-items: center;
 }
