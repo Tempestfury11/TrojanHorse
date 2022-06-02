@@ -10,6 +10,17 @@
   background-attachment: fixed;
 }
 
+#testimonials {
+  background: 
+    /* top, transparent red, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* bottom, image */ url(/images/testimonials/guitar2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 h6 {
   text-align: center;
 }
@@ -192,4 +203,8 @@ html,body{
 
 #project-img {
   align-items: center;
+}
+
+#text-par {
+background-color: black;
 }
